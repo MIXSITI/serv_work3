@@ -1,4 +1,3 @@
-"""Задание 6.2: in-memory регистрация и Basic-login."""
 import secrets
 
 from fastapi import APIRouter, Depends, HTTPException, status

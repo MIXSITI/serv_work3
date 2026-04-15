@@ -1,10 +1,3 @@
-"""
-Задание 6.3 (ТЗ).
-
-Режим MODE=DEV|PROD; в DEV — Basic для /docs и /openapi.json (DOCS_USER, DOCS_PASSWORD),
-сравнение через secrets.compare_digest; ReDoc скрыт; в PROD документация отключена
-(см. также middleware в main).
-"""
 import base64
 import binascii
 import secrets

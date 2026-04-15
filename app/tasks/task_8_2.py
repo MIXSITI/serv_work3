@@ -1,9 +1,3 @@
-"""
-Задание 8.2 (ТЗ).
-
-Модель Todo (id, title, description, completed); CRUD без SQLAlchemy (raw SQL):
-POST /todos, GET /todos/{id}, PUT /todos/{id}, DELETE /todos/{id}.
-"""
 from __future__ import annotations
 
 import sqlite3

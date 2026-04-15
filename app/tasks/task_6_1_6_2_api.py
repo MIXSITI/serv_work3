@@ -1,4 +1,3 @@
-"""HTTP-маршруты заданий 6.1–6.2: только GET /login (Basic)."""
 import sqlite3
 
 from fastapi import APIRouter, Depends

@@ -1,10 +1,3 @@
-"""
-Задание 6.5 (ТЗ).
-
-Регистрация POST /register и вход POST /login (JWT) с ответами 201/409/404/401;
-ограничение частоты: /register — 1/мин, /login — 5/мин; passlib + secrets.compare_digest;
-хранение пользователей в SQLite (задание 8.1).
-"""
 from __future__ import annotations
 
 import sqlite3

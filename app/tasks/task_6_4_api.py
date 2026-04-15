@@ -1,4 +1,3 @@
-"""Задание 6.4: POST /login для JWT."""
 import secrets
 
 from fastapi import APIRouter, HTTPException, status

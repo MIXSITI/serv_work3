@@ -1,4 +1,3 @@
-"""Эндпоинт задания 6.4: GET /protected_resource по Bearer JWT."""
 import jwt
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer

@@ -1,4 +1,3 @@
-"""Задание 6.1: GET /login с HTTP Basic."""
 import secrets
 
 from fastapi import APIRouter, Depends, HTTPException, status

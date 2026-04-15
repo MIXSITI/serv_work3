@@ -1,9 +1,3 @@
-"""
-Задание 8.1 (ТЗ).
-
-Подключение к SQLite, таблица users (id, username, password), скрипт создания,
-get_db_connection для эндпоинтов; пароль хранится в виде строки (в проекте — bcrypt-хэш из задания 6.2).
-"""
 from __future__ import annotations
 
 import sqlite3

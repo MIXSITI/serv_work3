@@ -1,13 +1,3 @@
-"""
-Задания 6.1 и 6.2 (ТЗ).
-
-6.1 — защищённая базовой аутентификацией точка GET /login (маршрут: task_6_1_6_2_api).
-6.2 — модели UserBase, User, UserInDB в app.schemas; PassLib CryptContext (bcrypt);
-зависимость auth_user; логика POST /register (маршрут с лимитом: task_6_5);
-сравнение через secrets.compare_digest.
-"""
-from __future__ import annotations
-
 import secrets
 import sqlite3
 from fastapi import HTTPException, status
@@ -16,7 +6,6 @@ from passlib.context import CryptContext
 
 from app.schemas import Message, UserInDB, UserRegister
 
-# --- 6.2: PassLib CryptContext, алгоритм bcrypt ---
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 http_basic = HTTPBasic(auto_error=False)

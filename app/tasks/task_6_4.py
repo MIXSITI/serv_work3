@@ -1,10 +1,3 @@
-"""
-Задание 6.4 (ТЗ).
-
-Аутентификация по JWT (библиотека PyJWT): выдача токена при POST /login (JSON),
-точка GET /protected_resource с Bearer; скрытие /docs, /openapi.json, /redoc (404 в PROD
-реализуется в main + задание 6.3); pydantic-settings для конфигурации.
-"""
 from __future__ import annotations
 
 import secrets

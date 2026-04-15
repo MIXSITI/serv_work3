@@ -1,9 +1,3 @@
-"""
-Задание 7.1 (ТЗ).
-
-Роли admin / user / guest; авторизация по JWT (decode из задания 6.4);
-зависимости для проверки ролей; демонстрационные эндпоинты /rbac/*.
-"""
 from __future__ import annotations
 
 from typing import Annotated
